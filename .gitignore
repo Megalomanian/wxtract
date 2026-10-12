@@ -1,0 +1,16 @@
+# 打包产物 / 构建中间文件
+build/
+dist/
+*.spec
+*.exe
+__pycache__/
+*.pyc
+
+# 运行时生成的输出（含隐私，绝不入库）
+微信聊天记录_*/
+*.db
+*.db-wal
+*.db-shm
+
+# 测试残留
+.w_test

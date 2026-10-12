@@ -1,0 +1,5 @@
+# 全部为可选依赖：不安装也能运行（纯标准库逐页解密，功能略受限）
+# 安装后可获得完整体验
+
+sqlcipher3     # SQLCipher 完整解密 + WAL 合并（拿到最新消息）；编译安装困难时可改用 sqlcipher3-binary
+zstandard      # 解压新版微信的 zstd 压缩消息内容
